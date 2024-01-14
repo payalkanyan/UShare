@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam";
+}
+
+code {
+  font-family: "Kalam";
+}
