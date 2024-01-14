@@ -14,5 +14,5 @@ Challenges I ran into:
 It was hard to work for connecting IPFS.
 It was a bit hard to find all the dependencies.
 
-### Sepolia Teastnet : 0x73fa57cb5a1dc1e11b53e1047fe6f9be580b8f48
-### Polygon : 0xA1E3A9851688589735E8705f7B33E1A908D5F354
+###  Sepolia Testnet: [0x73FA57cB5a1Dc1E11b53E1047Fe6F9be580B8F48](https://sepolia.etherscan.io/address/0x73fa57cb5a1dc1e11b53e1047fe6f9be580b8f48)https://sepolia.etherscan.io/address/0x73fa57cb5a1dc1e11b53e1047fe6f9be580b8f48
+### Polygon : [0xA1E3A9851688589735E8705f7B33E1A908D5F354](https://mumbai.polygonscan.com/address/0xA1E3A9851688589735E8705f7B33E1A908D5F354)https://mumbai.polygonscan.com/address/0xA1E3A9851688589735E8705f7B33E1A908D5F354
