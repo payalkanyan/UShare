@@ -2,16 +2,12 @@
 
 pragma solidity ^0.8.19;
 
-// Import openzeppelin contract
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "hardhat/console.sol";
 
-// PalPal Contract inherits ERC721 from openzeppelin
 contract UShare is ERC721URIStorage {
-    // Main identifier used as content's id
     uint256 public contentCount = 0;
 
-    //constructor
     constructor() ERC721("NFT UShare", "NFT-US") {
         console.log("This is UShare NFT Contract");
     }
@@ -24,27 +20,22 @@ contract UShare is ERC721URIStorage {
 
     // Content structure definition
     struct Content {
-        // Unique content specification
         uint256 id;
         address creator;
-        // IPFS Hashes
         string contentHash;
         string thumbnailHash;
         string detailsHash;
-        // Additional fields
         bool isUploaded;
         uint256 likesCount;
         uint256 tipsCount;
         uint256 commentsCount;
     }
 
-    // Comment structure definition
     struct Comment {
         address commentor;
         string comment;
     }
 
-    // mappings
     mapping(uint256 => Content) public contents;
     mapping(uint256 => address[]) likes;
     mapping(uint256 => address[]) tips;
@@ -55,8 +46,6 @@ contract UShare is ERC721URIStorage {
         require(contents[_id].isUploaded == true, "Content not found");
         _;
     }
-
-    // Upload and store content
     function uploadContent(
         string memory _contentHash,
         string memory _thumbnailHash,
