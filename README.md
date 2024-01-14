@@ -5,10 +5,10 @@ It helps one to upload the videos along with keeping the anonymity of the user a
 This decentralised video-sharing application is full of features and different functionalities which make it unique to use. You can share your precious and lovely moments with everyone in the world without any worry about copyright and other technicalities. Along with the feature of likes and comments, it has the option for adding tips for your favorite creators.
 It is unique and interesting as it is:
 
-A decentralised space for artists
-Provide storage on IPFS
-Mint NFTs ensuring unique video uploads
-Tips feature just like comments and likes
+1. A decentralised space for artists
+2. Provide storage on IPFS
+3. Mint NFTs ensuring unique video uploads
+4. Tips feature just like comments and likes
 
 Challenges I ran into:
 It was hard to work for connecting IPFS.
